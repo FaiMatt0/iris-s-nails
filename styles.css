@@ -341,7 +341,7 @@ body {
 }
 
 .footer-logo {
-    height: 105px;
+    height: 120px;
     width: auto;
     margin-bottom: 10px;
     border-radius: 50%;
@@ -470,6 +470,35 @@ body {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* Cookie popup mobile adjustments */
+.cookie-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.cookie-buttons {
+    flex-direction: column;
+    width: 100%;
+}
+
+.cookie-accept,
+.cookie-decline,
+.cookie-privacy {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cookie-text h3 {
+    font-size: 1.1rem;
+}
+
+.cookie-text p {
+    font-size: 0.8rem;
 }
 
 .cookie-icon {
@@ -1283,7 +1312,7 @@ h2::after {
     }
 
     .footer-logo {
-        height: 60px;
+        height: 120px;
     }
 
     .footer-brand h3 {
@@ -1435,14 +1464,6 @@ h2::after {
 
     .hero-content h1 {
         font-size: 1.8rem;
-    }
-
-    .services,
-    .about,
-    .contact {
-        padding: 40px 0;
-    }
-}
     }
 
     .services,
